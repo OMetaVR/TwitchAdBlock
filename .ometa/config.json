@@ -1,0 +1,10 @@
+{
+  "upstream": "gunnerkidBT/TwitchAdBlock",
+  "name": "TwitchAdBlock",
+  "base": {
+    "name": "Twitch",
+    "bundleId": "tv.twitch",
+    "appStoreId": 460177396,
+    "version": { "from": "upstream-tag", "regex": "^v([0-9.]+)-" }
+  }
+}
